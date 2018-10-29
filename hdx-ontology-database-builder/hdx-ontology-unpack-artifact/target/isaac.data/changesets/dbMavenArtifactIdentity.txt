@@ -1,0 +1,10 @@
+MavenArtifactInfo
+  groupId=null
+  artifactId=null
+  version=null
+  classifier=null
+  type=null
+
+Licenses
+
+Database Dependencies

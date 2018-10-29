@@ -1,0 +1,165 @@
+2018-10-29 15:45:26,714 INFO  [RunLevelControllerThread-1540842326710] sh.isaac.api.util.WorkExecutors (WorkExecutors.java:141) - Starting the WorkExecutors thread pools for change to runlevel: -1
+2018-10-29 15:45:26,725 INFO  [main] sh.isaac.model.configuration.ConfigurationServiceProvider (ConfigurationServiceProvider.java:226) - setDataStoreFolderPath called with /Users/adi/HumanDx/ontolgy/ontology-release-plugin/hdx-ontology-database-builder/hdx-ontology-unpack-artifact/target/isaac.data
+2018-10-29 15:45:26,732 INFO  [RunLevelControllerThread-1540842326710] sh.isaac.provider.metacontent.MVStoreMetaContentProvider (MVStoreMetaContentProvider.java:89) - Constructing MVStoreMetaContent service 480539160
+2018-10-29 15:45:26,733 INFO  [RunLevelControllerThread-1540842326710] sh.isaac.provider.metacontent.MVStoreMetaContentProvider (MVStoreMetaContentProvider.java:198) - Starting MVStoreMetaContent service
+2018-10-29 15:45:26,732 INFO  [RunLevelControllerThread-1540842326732] sh.isaac.model.configuration.GlobalDatastoreConfigurationProvider (GlobalDatastoreConfigurationProvider.java:85) - Setting up Configuration Service
+2018-10-29 15:45:26,736 INFO  [RunLevelControllerThread-1540842326710] sh.isaac.provider.metacontent.MVStoreMetaContentProvider (MVStoreMetaContentProvider.java:187) - MVStoreMetaContent store path: /Users/adi/HumanDx/ontolgy/ontology-release-plugin/hdx-ontology-database-builder/hdx-ontology-unpack-artifact/target/isaac.data/metacontent/service_MetaContent.mv
+2018-10-29 15:45:26,769 INFO  [RunLevelControllerThread-1540842326710] sh.isaac.provider.datastore.FileSystemDataStore (FileSystemDataStore.java:312) - Startings FileSystemDataStore
+2018-10-29 15:45:26,776 INFO  [RunLevelControllerThread-1540842326732] sh.isaac.provider.commit.PostCommitProvider (PostCommitProvider.java:171) - Starting PostCommitProvider post-construct
+2018-10-29 15:45:26,776 INFO  [RunLevelControllerThread-1540842326776] sh.isaac.provider.datastore.chronology.ChronologyProvider (ChronologyProvider.java:223) - Starting chronology provider for change to runlevel: 2
+2018-10-29 15:45:26,776 INFO  [RunLevelControllerThread-1540842326776] sh.isaac.provider.stamp.StampProvider (StampProvider.java:429) - Starting StampProvider post-construct
+2018-10-29 15:45:26,777 INFO  [RunLevelControllerThread-1540842326776] sh.isaac.provider.stamp.StampProvider (StampProvider.java:435) - Reading existing commit manager data. 
+2018-10-29 15:45:26,778 INFO  [RunLevelControllerThread-1540842326776] sh.isaac.provider.stamp.StampProvider (StampProvider.java:436) - Reading stamp-manager.data
+2018-10-29 15:45:26,777 INFO  [RunLevelControllerThread-1540842326775] sh.isaac.provider.datastore.identifier.IdentifierProvider (IdentifierProvider.java:126) - Starting identifier provider for change to runlevel: 2
+2018-10-29 15:45:26,790 INFO  [RunLevelControllerThread-1540842326710] sh.isaac.provider.commit.CommitProvider (CommitProvider.java:861) - Starting CommitProvider post-construct for change to runlevel: 2
+2018-10-29 15:45:26,792 INFO  [RunLevelControllerThread-1540842326710] sh.isaac.provider.commit.WriteCompletionService (WriteCompletionService.java:128) - Starting WriteCompletionService
+2018-10-29 15:45:26,793 INFO  [RunLevelControllerThread-1540842326710] sh.isaac.provider.commit.CommitProvider (CommitProvider.java:908) - Reading existing commit manager data from /Users/adi/HumanDx/ontolgy/ontology-release-plugin/hdx-ontology-database-builder/hdx-ontology-unpack-artifact/target/isaac.data/commit-provider/commit-manager
+2018-10-29 15:45:26,793 INFO  [RunLevelControllerThread-1540842326710] sh.isaac.provider.commit.CommitProvider (CommitProvider.java:909) - Reading commit-manager.data
+2018-10-29 15:45:26,793 INFO  [writeCompletionService] sh.isaac.provider.commit.WriteCompletionService (WriteCompletionService.java:99) - WriteCompletionService starting
+2018-10-29 15:45:26,794 INFO  [RunLevelControllerThread-1540842326710] sh.isaac.provider.commit.CommitProvider (CommitProvider.java:921) - Reading: stamp-alias.map
+2018-10-29 15:45:26,794 INFO  [RunLevelControllerThread-1540842326710] sh.isaac.provider.commit.CommitProvider (CommitProvider.java:923) - Reading: stamp-comment.map
+2018-10-29 15:45:26,803 INFO  [RunLevelControllerThread-1540842326776] sh.isaac.provider.logic.LogicProvider (LogicProvider.java:102) - logic provider constructed
+2018-10-29 15:45:26,803 INFO  [RunLevelControllerThread-1540842326776] sh.isaac.provider.path.VersionManagmentPathProvider (VersionManagmentPathProvider.java:309) - VersionManagementPathProvider starts
+2018-10-29 15:45:26,803 INFO  [RunLevelControllerThread-1540842326710] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:916) - Starting semantics-index post-construct
+2018-10-29 15:45:26,803 INFO  [RunLevelControllerThread-1540842326776] sh.isaac.provider.path.VersionManagmentPathProvider (VersionManagmentPathProvider.java:133) - Rebuilding the path map.  Old map size: 0
+2018-10-29 15:45:26,803 INFO  [RunLevelControllerThread-1540842326776] sh.isaac.provider.logic.LogicProvider (LogicProvider.java:115) - Starting LogicProvider for change to runlevel: 3
+2018-10-29 15:45:26,805 INFO  [RunLevelControllerThread-1540842326710] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:951) - Index: /Users/adi/HumanDx/ontolgy/ontology-release-plugin/hdx-ontology-database-builder/hdx-ontology-unpack-artifact/target/isaac.data/search/lucene/semantics-index  data store id Optional[83503baa-a6e8-4df8-b136-de43a07b87d2] 
+2018-10-29 15:45:26,805 INFO  [RunLevelControllerThread-1540842326732] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:916) - Starting descriptions-index post-construct
+2018-10-29 15:45:26,807 INFO  [RunLevelControllerThread-1540842326732] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:951) - Index: /Users/adi/HumanDx/ontolgy/ontology-release-plugin/hdx-ontology-database-builder/hdx-ontology-unpack-artifact/target/isaac.data/search/lucene/descriptions-index  data store id Optional[83503baa-a6e8-4df8-b136-de43a07b87d2] 
+2018-10-29 15:45:26,817 INFO  [RunLevelControllerThread-1540842326776] sh.isaac.provider.path.VersionManagmentPathProvider (VersionManagmentPathProvider.java:149) - Finished rebuilding the path map.  New map size: 0
+2018-10-29 15:45:26,955 INFO  [RunLevelControllerThread-1540842326710] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:1004) - Registering indexer semantics-index for commits
+2018-10-29 15:45:26,955 INFO  [RunLevelControllerThread-1540842326732] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:1004) - Registering indexer descriptions-index for commits
+2018-10-29 15:45:26,956 INFO  [RunLevelControllerThread-1540842326710] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:1075) - Indexer semantics-index Started
+2018-10-29 15:45:26,956 INFO  [RunLevelControllerThread-1540842326732] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:1075) - Indexer descriptions-index Started
+2018-10-29 15:45:26,957 INFO  [RunLevelControllerThread-1540842326775] sh.isaac.provider.commit.ChangeSetLoadProvider (ChangeSetLoadProvider.java:189) - Loading change set files.
+2018-10-29 15:45:26,957 INFO  [RunLevelControllerThread-1540842326776] sh.isaac.provider.datastore.taxonomy.TaxonomyProvider (TaxonomyProvider.java:264) - Starting TaxonomyProvider post-construct
+2018-10-29 15:45:26,960 INFO  [RunLevelControllerThread-1540842326775] sh.isaac.provider.commit.ChangeSetLoadProvider (ChangeSetLoadProvider.java:176) - Finished Change Set Load Provider load.  Loaded 0, Skipped 0 because they were previously processed
+2018-10-29 15:45:26,961 INFO  [RunLevelControllerThread-1540842326776] sh.isaac.provider.commit.ChangeSetWriterHandler (ChangeSetWriterHandler.java:283) - Starting ChangeSetWriterHandler post-construct
+2018-10-29 15:45:26,968 INFO  [RunLevelControllerThread-1540842326776] sh.isaac.api.util.TimeFlushBufferedOutputStream (TimeFlushBufferedOutputStream.java:137) - Scheduling thread to flush time flush buffers
+2018-10-29 15:45:26,970 INFO  [RunLevelControllerThread-1540842326776] sh.isaac.api.externalizable.json.JsonDataWriterService (JsonDataWriterService.java:188) - json changeset writer has been configured to write to /Users/adi/HumanDx/ontolgy/ontology-release-plugin/hdx-ontology-database-builder/hdx-ontology-unpack-artifact/target/isaac.data/changesets/ChangeSet-2018-10-29_15-45-26_53c0a92d-9834-422e-a8c3-202d6800e8fd.json
+2018-10-29 15:45:26,970 INFO  [RunLevelControllerThread-1540842326776] sh.isaac.provider.ibdf.BinaryDataWriterProvider (BinaryDataWriterProvider.java:173) - ibdf changeset writer has been configured to write to /Users/adi/HumanDx/ontolgy/ontology-release-plugin/hdx-ontology-database-builder/hdx-ontology-unpack-artifact/target/isaac.data/changesets/ChangeSet-2018-10-29_15-45-26_53c0a92d-9834-422e-a8c3-202d6800e8fd.ibdf
+2018-10-29 15:45:26,974 INFO  [RunLevelControllerThread-1540842326776] sh.isaac.provider.commit.ChangeSetWriterHandler (ChangeSetWriterHandler.java:313) - Stopping ChangeSetWriterHandler pre-destroy
+2018-10-29 15:45:26,975 INFO  [RunLevelControllerThread-1540842326732] sh.isaac.provider.commit.ChangeSetLoadProvider (ChangeSetLoadProvider.java:305) - Finished ChangeSet Load Provider pre-destory.
+2018-10-29 15:45:26,975 INFO  [RunLevelControllerThread-1540842326732] sh.isaac.provider.datastore.taxonomy.TaxonomyProvider (TaxonomyProvider.java:285) - Stopping TaxonomyProvider
+2018-10-29 15:45:27,005 INFO  [ISAAC-Q-work-thread 31] sh.isaac.provider.datastore.FileSystemDataStore (FileSystemDataStore.java:779) - FileSystemDataStore sync complete.
+2018-10-29 15:45:27,007 INFO  [RunLevelControllerThread-1540842326732] sh.isaac.provider.datastore.taxonomy.TaxonomyProvider (TaxonomyProvider.java:304) - BdbTaxonomyProvider stopped
+2018-10-29 15:45:27,007 INFO  [RunLevelControllerThread-1540842326776] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:1094) - Stopping descriptions-index pre-destroy. 
+2018-10-29 15:45:27,007 INFO  [ISAAC-Q-work-thread 31] sh.isaac.api.task.TimedTask (TimedTask.java:144) - SyncTask 1 completed in: 7 ms
+2018-10-29 15:45:27,011 INFO  [RunLevelControllerThread-1540842326776] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:1094) - Stopping semantics-index pre-destroy. 
+2018-10-29 15:45:27,012 INFO  [RunLevelControllerThread-1540842326776] sh.isaac.provider.path.VersionManagmentPathProvider (VersionManagmentPathProvider.java:318) - VersionManagementPathProvider stops
+2018-10-29 15:45:27,012 INFO  [RunLevelControllerThread-1540842326776] sh.isaac.provider.logic.LogicProvider (LogicProvider.java:125) - Stopping LogicProvider for change to runlevel: 2
+2018-10-29 15:45:27,013 INFO  [RunLevelControllerThread-1540842326732] sh.isaac.provider.datastore.identifier.IdentifierProvider (IdentifierProvider.java:144) - Stopping identifier provider for change to runlevel: 1
+2018-10-29 15:45:27,014 INFO  [ISAAC-Q-work-thread 32] sh.isaac.provider.datastore.identifier.IdentifierProvider (IdentifierProvider.java:434) - writing uuid-nid-map.
+2018-10-29 15:45:27,018 INFO  [ISAAC-Q-work-thread 33] sh.isaac.provider.datastore.FileSystemDataStore (FileSystemDataStore.java:779) - FileSystemDataStore sync complete.
+2018-10-29 15:45:27,019 INFO  [ISAAC-Q-work-thread 33] sh.isaac.api.task.TimedTask (TimedTask.java:144) - SyncTask 2 completed in: 3 ms
+2018-10-29 15:45:27,022 INFO  [ISAAC-Q-work-thread 34] sh.isaac.provider.datastore.FileSystemDataStore (FileSystemDataStore.java:779) - FileSystemDataStore sync complete.
+2018-10-29 15:45:27,022 INFO  [ISAAC-Q-work-thread 34] sh.isaac.api.task.TimedTask (TimedTask.java:144) - SyncTask 3 completed in: 3 ms
+2018-10-29 15:45:27,022 INFO  [RunLevelControllerThread-1540842326732] sh.isaac.provider.commit.PostCommitProvider (PostCommitProvider.java:181) - Stopping PostCommitProvider pre-destroy. 
+2018-10-29 15:45:27,023 INFO  [RunLevelControllerThread-1540842326732] sh.isaac.provider.commit.CommitProvider (CommitProvider.java:1001) - Stopping CommitProvider pre-destroy for change to runlevel: 1
+2018-10-29 15:45:27,027 INFO  [RunLevelControllerThread-1540842326732] sh.isaac.provider.commit.WriteCompletionService (WriteCompletionService.java:142) - Stopping WriteCompletionService
+2018-10-29 15:45:27,027 INFO  [writeCompletionService] sh.isaac.provider.commit.WriteCompletionService (WriteCompletionService.java:121) - Stopped WriteCompletionService writeConceptCompletionServiceThread
+2018-10-29 15:45:27,027 INFO  [RunLevelControllerThread-1540842326732] sh.isaac.provider.commit.WriteCompletionService (WriteCompletionService.java:157) - Stopped WriteCompletionService workerPool
+2018-10-29 15:45:27,027 INFO  [RunLevelControllerThread-1540842326732] sh.isaac.provider.commit.WriteCompletionService (WriteCompletionService.java:160) - WriteCompletionService closed
+2018-10-29 15:45:27,028 INFO  [RunLevelControllerThread-1540842326732] sh.isaac.provider.stamp.StampProvider (StampProvider.java:501) - Stopping StampProvider pre-destroy. 
+2018-10-29 15:45:27,029 INFO  [RunLevelControllerThread-1540842326732] sh.isaac.provider.datastore.chronology.ChronologyProvider (ChronologyProvider.java:236) - Stopping chronology provider for change to runlevel: 1
+2018-10-29 15:45:27,032 INFO  [ISAAC-Q-work-thread 19] sh.isaac.provider.datastore.FileSystemDataStore (FileSystemDataStore.java:779) - FileSystemDataStore sync complete.
+2018-10-29 15:45:27,032 INFO  [ISAAC-Q-work-thread 19] sh.isaac.api.task.TimedTask (TimedTask.java:144) - SyncTask 4 completed in: 2 ms
+2018-10-29 15:45:27,033 INFO  [RunLevelControllerThread-1540842326776] sh.isaac.provider.datastore.FileSystemDataStore (FileSystemDataStore.java:388) - Stopping FileSystemDataStore.
+2018-10-29 15:45:27,036 INFO  [IODataStore-Shutdown-work-thread 36] sh.isaac.provider.datastore.FileSystemDataStore (FileSystemDataStore.java:779) - FileSystemDataStore sync complete.
+2018-10-29 15:45:27,036 INFO  [IODataStore-Shutdown-work-thread 36] sh.isaac.api.task.TimedTask (TimedTask.java:144) - SyncTask 5 completed in: 2 ms
+2018-10-29 15:45:27,037 INFO  [RunLevelControllerThread-1540842326732] sh.isaac.provider.metacontent.MVStoreMetaContentProvider (MVStoreMetaContentProvider.java:120) - Stopping a MVStoreMetaContent service
+2018-10-29 15:45:27,040 INFO  [RunLevelControllerThread-1540842326776] sh.isaac.api.util.WorkExecutors (WorkExecutors.java:211) - Stopping WorkExecutors thread pools for change to runlevel: -2
+2018-10-29 15:45:27,044 INFO  [main] sh.isaac.api.bootstrap.TermAux (TermAux.java:642) - Clearing cached nids in static metadata from TermAux
+2018-10-29 15:45:27,045 INFO  [main] sh.isaac.api.Get (Get.java:689) - Resetting service cache.
+2018-10-29 15:45:27,045 INFO  [main] sh.isaac.utility.MetaDataCleanup (MetaDataCleanup.java:54) - Clearing cached data in static MetaData constants
+2018-10-29 15:45:27,067 INFO  [main] sh.isaac.provider.datastore.chronology.ChronologyUpdate (ChronologyUpdate.java:549) - Clearing ChronologyUpdate cache
+2018-10-29 15:51:37,923 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.api.util.WorkExecutors (WorkExecutors.java:141) - Starting the WorkExecutors thread pools for change to runlevel: -1
+2018-10-29 15:51:37,934 INFO  [main] sh.isaac.model.configuration.ConfigurationServiceProvider (ConfigurationServiceProvider.java:226) - setDataStoreFolderPath called with /Users/adi/HumanDx/ontolgy/ontology-release-plugin/hdx-ontology-database-builder/hdx-ontology-unpack-artifact/target/isaac.data
+2018-10-29 15:51:37,939 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.metacontent.MVStoreMetaContentProvider (MVStoreMetaContentProvider.java:89) - Constructing MVStoreMetaContent service 516783065
+2018-10-29 15:51:37,940 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.metacontent.MVStoreMetaContentProvider (MVStoreMetaContentProvider.java:198) - Starting MVStoreMetaContent service
+2018-10-29 15:51:37,939 INFO  [RunLevelControllerThread-1540842697939] sh.isaac.model.configuration.GlobalDatastoreConfigurationProvider (GlobalDatastoreConfigurationProvider.java:85) - Setting up Configuration Service
+2018-10-29 15:51:37,944 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.metacontent.MVStoreMetaContentProvider (MVStoreMetaContentProvider.java:187) - MVStoreMetaContent store path: /Users/adi/HumanDx/ontolgy/ontology-release-plugin/hdx-ontology-database-builder/hdx-ontology-unpack-artifact/target/isaac.data/metacontent/service_MetaContent.mv
+2018-10-29 15:51:37,972 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.datastore.FileSystemDataStore (FileSystemDataStore.java:312) - Startings FileSystemDataStore
+2018-10-29 15:51:37,986 INFO  [RunLevelControllerThread-1540842697939] sh.isaac.provider.stamp.StampProvider (StampProvider.java:429) - Starting StampProvider post-construct
+2018-10-29 15:51:37,985 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.provider.commit.PostCommitProvider (PostCommitProvider.java:171) - Starting PostCommitProvider post-construct
+2018-10-29 15:51:37,986 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.provider.datastore.chronology.ChronologyProvider (ChronologyProvider.java:223) - Starting chronology provider for change to runlevel: 2
+2018-10-29 15:51:37,987 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.provider.datastore.identifier.IdentifierProvider (IdentifierProvider.java:126) - Starting identifier provider for change to runlevel: 2
+2018-10-29 15:51:38,000 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.commit.CommitProvider (CommitProvider.java:861) - Starting CommitProvider post-construct for change to runlevel: 2
+2018-10-29 15:51:38,166 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.commit.WriteCompletionService (WriteCompletionService.java:128) - Starting WriteCompletionService
+2018-10-29 15:51:38,168 INFO  [writeCompletionService] sh.isaac.provider.commit.WriteCompletionService (WriteCompletionService.java:99) - WriteCompletionService starting
+2018-10-29 15:51:38,169 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.provider.logic.LogicProvider (LogicProvider.java:102) - logic provider constructed
+2018-10-29 15:51:38,169 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.provider.path.VersionManagmentPathProvider (VersionManagmentPathProvider.java:309) - VersionManagementPathProvider starts
+2018-10-29 15:51:38,170 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.provider.path.VersionManagmentPathProvider (VersionManagmentPathProvider.java:133) - Rebuilding the path map.  Old map size: 0
+2018-10-29 15:51:38,170 INFO  [RunLevelControllerThread-1540842697939] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:916) - Starting semantics-index post-construct
+2018-10-29 15:51:38,170 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.provider.logic.LogicProvider (LogicProvider.java:115) - Starting LogicProvider for change to runlevel: 3
+2018-10-29 15:51:38,171 INFO  [RunLevelControllerThread-1540842697939] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:932) - Index folder missing or empty: /Users/adi/HumanDx/ontolgy/ontology-release-plugin/hdx-ontology-database-builder/hdx-ontology-unpack-artifact/target/isaac.data/search/lucene/semantics-index
+2018-10-29 15:51:38,172 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:916) - Starting descriptions-index post-construct
+2018-10-29 15:51:38,172 INFO  [RunLevelControllerThread-1540842697939] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:951) - Index: /Users/adi/HumanDx/ontolgy/ontology-release-plugin/hdx-ontology-database-builder/hdx-ontology-unpack-artifact/target/isaac.data/search/lucene/semantics-index 
+2018-10-29 15:51:38,172 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:932) - Index folder missing or empty: /Users/adi/HumanDx/ontolgy/ontology-release-plugin/hdx-ontology-database-builder/hdx-ontology-unpack-artifact/target/isaac.data/search/lucene/descriptions-index
+2018-10-29 15:51:38,173 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:951) - Index: /Users/adi/HumanDx/ontolgy/ontology-release-plugin/hdx-ontology-database-builder/hdx-ontology-unpack-artifact/target/isaac.data/search/lucene/descriptions-index 
+2018-10-29 15:51:38,179 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.provider.path.VersionManagmentPathProvider (VersionManagmentPathProvider.java:149) - Finished rebuilding the path map.  New map size: 0
+2018-10-29 15:51:38,276 INFO  [RunLevelControllerThread-1540842697939] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:1004) - Registering indexer semantics-index for commits
+2018-10-29 15:51:38,276 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:1004) - Registering indexer descriptions-index for commits
+2018-10-29 15:51:38,277 INFO  [RunLevelControllerThread-1540842697939] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:1062) - Starting reindex of 'semantics-index' due to out-of-date index
+2018-10-29 15:51:38,277 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:1062) - Starting reindex of 'descriptions-index' due to out-of-date index
+2018-10-29 15:51:38,300 INFO  [ISAAC-Q-work-thread 30] sh.isaac.api.index.GenerateIndexes (GenerateIndexes.java:144) - Clearing index for: semantics-index
+2018-10-29 15:51:38,300 INFO  [ISAAC-Q-work-thread 29] sh.isaac.api.index.GenerateIndexes (GenerateIndexes.java:144) - Clearing index for: descriptions-index
+2018-10-29 15:51:38,301 INFO  [ISAAC-Q-work-thread 30] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:1217) - locking for reindex
+2018-10-29 15:51:38,301 INFO  [ISAAC-Q-work-thread 29] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:1217) - locking for reindex
+2018-10-29 15:51:38,309 INFO  [ISAAC-Q-work-thread 30] sh.isaac.api.index.GenerateIndexes (GenerateIndexes.java:154) - Semantic elements to index: 0
+2018-10-29 15:51:38,309 INFO  [ISAAC-Q-work-thread 29] sh.isaac.api.index.GenerateIndexes (GenerateIndexes.java:154) - Semantic elements to index: 0
+2018-10-29 15:51:38,321 INFO  [ISAAC-Q-work-thread 30] sh.isaac.api.index.GenerateIndexes (GenerateIndexes.java:189) - semantics-index indexing complete.  Statistics follow:
+2018-10-29 15:51:38,321 INFO  [ISAAC-Q-work-thread 29] sh.isaac.api.index.GenerateIndexes (GenerateIndexes.java:189) - descriptions-index indexing complete.  Statistics follow:
+2018-10-29 15:51:38,323 INFO  [ISAAC-Q-work-thread 29] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:1232) - unlocking after reindex
+2018-10-29 15:51:38,323 INFO  [ISAAC-Q-work-thread 30] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:1232) - unlocking after reindex
+2018-10-29 15:51:38,323 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:1066) - Reindex complete
+2018-10-29 15:51:38,323 INFO  [RunLevelControllerThread-1540842697939] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:1066) - Reindex complete
+2018-10-29 15:51:38,324 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:1075) - Indexer descriptions-index Started
+2018-10-29 15:51:38,324 INFO  [RunLevelControllerThread-1540842697939] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:1075) - Indexer semantics-index Started
+2018-10-29 15:51:38,325 INFO  [ISAAC-Q-work-thread 29] sh.isaac.api.task.TimedTask (TimedTask.java:144) - GenerateIndexes 1 completed in: 19 ms
+2018-10-29 15:51:38,325 INFO  [ISAAC-Q-work-thread 30] sh.isaac.api.task.TimedTask (TimedTask.java:144) - GenerateIndexes 2 completed in: 21 ms
+2018-10-29 15:51:38,326 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.provider.commit.ChangeSetLoadProvider (ChangeSetLoadProvider.java:189) - Loading change set files.
+2018-10-29 15:51:38,326 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.provider.datastore.taxonomy.TaxonomyProvider (TaxonomyProvider.java:264) - Starting TaxonomyProvider post-construct
+2018-10-29 15:51:38,329 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.api.util.metainf.MetaInfReader (MetaInfReader.java:218) - No metadata folder found in DB folder - this is expected, if we are building a new database
+2018-10-29 15:51:38,333 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.provider.commit.ChangeSetLoadProvider (ChangeSetLoadProvider.java:176) - Finished Change Set Load Provider load.  Loaded 0, Skipped 0 because they were previously processed
+2018-10-29 15:51:38,334 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.provider.commit.ChangeSetWriterHandler (ChangeSetWriterHandler.java:283) - Starting ChangeSetWriterHandler post-construct
+2018-10-29 15:51:38,342 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.api.util.TimeFlushBufferedOutputStream (TimeFlushBufferedOutputStream.java:137) - Scheduling thread to flush time flush buffers
+2018-10-29 15:51:38,345 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.api.externalizable.json.JsonDataWriterService (JsonDataWriterService.java:188) - json changeset writer has been configured to write to /Users/adi/HumanDx/ontolgy/ontology-release-plugin/hdx-ontology-database-builder/hdx-ontology-unpack-artifact/target/isaac.data/changesets/ChangeSet-2018-10-29_15-51-38_e773f170-3d00-4544-95c4-5651f2bec7f9.json
+2018-10-29 15:51:38,345 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.provider.ibdf.BinaryDataWriterProvider (BinaryDataWriterProvider.java:173) - ibdf changeset writer has been configured to write to /Users/adi/HumanDx/ontolgy/ontology-release-plugin/hdx-ontology-database-builder/hdx-ontology-unpack-artifact/target/isaac.data/changesets/ChangeSet-2018-10-29_15-51-38_e773f170-3d00-4544-95c4-5651f2bec7f9.ibdf
+2018-10-29 15:51:38,348 INFO  [main] sh.isaac.api.index.GenerateIndexes (GenerateIndexes.java:227) - Stop requested
+2018-10-29 15:51:38,349 INFO  [main] sh.isaac.api.index.GenerateIndexes (GenerateIndexes.java:227) - Stop requested
+2018-10-29 15:51:38,351 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.provider.commit.ChangeSetWriterHandler (ChangeSetWriterHandler.java:313) - Stopping ChangeSetWriterHandler pre-destroy
+2018-10-29 15:51:38,352 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.commit.ChangeSetLoadProvider (ChangeSetLoadProvider.java:305) - Finished ChangeSet Load Provider pre-destory.
+2018-10-29 15:51:38,352 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.datastore.taxonomy.TaxonomyProvider (TaxonomyProvider.java:285) - Stopping TaxonomyProvider
+2018-10-29 15:51:38,363 INFO  [ISAAC-Q-work-thread 42] sh.isaac.provider.datastore.FileSystemDataStore (FileSystemDataStore.java:779) - FileSystemDataStore sync complete.
+2018-10-29 15:51:38,364 INFO  [ISAAC-Q-work-thread 42] sh.isaac.api.task.TimedTask (TimedTask.java:144) - SyncTask 3 completed in: 9 ms
+2018-10-29 15:51:38,364 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.datastore.taxonomy.TaxonomyProvider (TaxonomyProvider.java:304) - BdbTaxonomyProvider stopped
+2018-10-29 15:51:38,365 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:1094) - Stopping descriptions-index pre-destroy. 
+2018-10-29 15:51:38,367 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.provider.query.lucene.LuceneIndexer (LuceneIndexer.java:1094) - Stopping semantics-index pre-destroy. 
+2018-10-29 15:51:38,369 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.provider.path.VersionManagmentPathProvider (VersionManagmentPathProvider.java:318) - VersionManagementPathProvider stops
+2018-10-29 15:51:38,370 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.provider.logic.LogicProvider (LogicProvider.java:125) - Stopping LogicProvider for change to runlevel: 2
+2018-10-29 15:51:38,371 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.commit.PostCommitProvider (PostCommitProvider.java:181) - Stopping PostCommitProvider pre-destroy. 
+2018-10-29 15:51:38,372 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.commit.CommitProvider (CommitProvider.java:1001) - Stopping CommitProvider pre-destroy for change to runlevel: 1
+2018-10-29 15:51:38,378 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.commit.WriteCompletionService (WriteCompletionService.java:142) - Stopping WriteCompletionService
+2018-10-29 15:51:38,378 INFO  [writeCompletionService] sh.isaac.provider.commit.WriteCompletionService (WriteCompletionService.java:121) - Stopped WriteCompletionService writeConceptCompletionServiceThread
+2018-10-29 15:51:38,378 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.commit.WriteCompletionService (WriteCompletionService.java:157) - Stopped WriteCompletionService workerPool
+2018-10-29 15:51:38,379 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.commit.WriteCompletionService (WriteCompletionService.java:160) - WriteCompletionService closed
+2018-10-29 15:51:38,379 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.stamp.StampProvider (StampProvider.java:501) - Stopping StampProvider pre-destroy. 
+2018-10-29 15:51:38,380 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.datastore.identifier.IdentifierProvider (IdentifierProvider.java:144) - Stopping identifier provider for change to runlevel: 1
+2018-10-29 15:51:38,381 INFO  [ISAAC-Q-work-thread 39] sh.isaac.provider.datastore.identifier.IdentifierProvider (IdentifierProvider.java:434) - writing uuid-nid-map.
+2018-10-29 15:51:38,449 INFO  [ISAAC-Q-work-thread 38] sh.isaac.provider.datastore.FileSystemDataStore (FileSystemDataStore.java:779) - FileSystemDataStore sync complete.
+2018-10-29 15:51:38,450 INFO  [ISAAC-Q-work-thread 38] sh.isaac.api.task.TimedTask (TimedTask.java:144) - SyncTask 4 completed in: 5 ms
+2018-10-29 15:51:38,453 INFO  [ISAAC-Q-work-thread 30] sh.isaac.provider.datastore.FileSystemDataStore (FileSystemDataStore.java:779) - FileSystemDataStore sync complete.
+2018-10-29 15:51:38,454 INFO  [ISAAC-Q-work-thread 30] sh.isaac.api.task.TimedTask (TimedTask.java:144) - SyncTask 5 completed in: 4 ms
+2018-10-29 15:51:38,454 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.datastore.chronology.ChronologyProvider (ChronologyProvider.java:236) - Stopping chronology provider for change to runlevel: 1
+2018-10-29 15:51:38,457 INFO  [ISAAC-Q-work-thread 29] sh.isaac.provider.datastore.FileSystemDataStore (FileSystemDataStore.java:779) - FileSystemDataStore sync complete.
+2018-10-29 15:51:38,458 INFO  [ISAAC-Q-work-thread 29] sh.isaac.api.task.TimedTask (TimedTask.java:144) - SyncTask 6 completed in: 3 ms
+2018-10-29 15:51:38,458 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.provider.datastore.FileSystemDataStore (FileSystemDataStore.java:388) - Stopping FileSystemDataStore.
+2018-10-29 15:51:38,462 INFO  [IODataStore-Shutdown-work-thread 43] sh.isaac.provider.datastore.FileSystemDataStore (FileSystemDataStore.java:779) - FileSystemDataStore sync complete.
+2018-10-29 15:51:38,464 INFO  [IODataStore-Shutdown-work-thread 43] sh.isaac.api.task.TimedTask (TimedTask.java:144) - SyncTask 7 completed in: 4 ms
+2018-10-29 15:51:38,464 INFO  [RunLevelControllerThread-1540842697919] sh.isaac.provider.metacontent.MVStoreMetaContentProvider (MVStoreMetaContentProvider.java:120) - Stopping a MVStoreMetaContent service
+2018-10-29 15:51:38,469 INFO  [RunLevelControllerThread-1540842697985] sh.isaac.api.util.WorkExecutors (WorkExecutors.java:211) - Stopping WorkExecutors thread pools for change to runlevel: -2
+2018-10-29 15:51:38,472 INFO  [main] sh.isaac.api.bootstrap.TermAux (TermAux.java:642) - Clearing cached nids in static metadata from TermAux
+2018-10-29 15:51:38,473 INFO  [main] sh.isaac.api.Get (Get.java:689) - Resetting service cache.
+2018-10-29 15:51:38,474 INFO  [main] sh.isaac.utility.MetaDataCleanup (MetaDataCleanup.java:54) - Clearing cached data in static MetaData constants
+2018-10-29 15:51:38,501 INFO  [main] sh.isaac.provider.datastore.chronology.ChronologyUpdate (ChronologyUpdate.java:549) - Clearing ChronologyUpdate cache
