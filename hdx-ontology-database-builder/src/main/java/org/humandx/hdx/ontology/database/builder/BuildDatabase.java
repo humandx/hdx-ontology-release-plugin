@@ -10,6 +10,7 @@ import java.io.File;
 import javafx.application.Platform;
 import sh.isaac.api.Get;
 import sh.isaac.api.LookupService;
+import sh.isaac.api.constants.SystemPropertyConstants;
 
 /**
  *
@@ -18,10 +19,10 @@ import sh.isaac.api.LookupService;
 public class BuildDatabase {
     
     public static void main(String[] args){
-        String datastorePath = args[0];
+        String datastorePath = "/Users/adi/HumanDx/ontolgy/ontology-release-plugin/hdx-ontology-database-builder/hdx-ontology-unpack-artifact/target/isaac.data";
+        System.setProperty(SystemPropertyConstants.DATA_STORE_ROOT_LOCATION_PROPERTY, datastorePath);
         System.out.println(datastorePath);
-        File datastore = new File(datastorePath);
-        Get.configurationService().setDataStoreFolderPath(datastore.toPath());
+        //Get.configurationService().setDataStoreFolderPath(datastore.toPath());
         LookupService.startupIsaac();
         LookupService.shutdownSystem();
         Platform.exit();

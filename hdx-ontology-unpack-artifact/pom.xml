@@ -31,7 +31,7 @@
                                 <type>zip</type>
                             </artifact>
                         </artifactItems>
-                        <outputDirectory>target/isaac.data</outputDirectory>
+                        <outputDirectory>${outputdir}</outputDirectory> <!--Property will be supplied from the commndline as "-Doutputdir=<the output idrectory"-->
                         </configuration>
                     </execution>
                 </executions>
