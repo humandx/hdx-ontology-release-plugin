@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.humandx.ontology</groupId>
     <artifactId>data</artifactId>
-    <version>${database.version}</version>
+    <version>${env.release_tag}</version>
     <packaging>pom</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -18,7 +18,7 @@
                 <version>1.11.1</version>
                 <configuration>
                     <connectionUrl>scm:git:https://${env.GIT_TOKEN}@github.com/humandx/hdx-ontology-isaac-changesets.git</connectionUrl>
-                    <scmVersion>1.1.0</scmVersion>
+                    <scmVersion>${env.release_tag}</scmVersion>
                     <scmVersionType>tag</scmVersionType>
                 </configuration>
                 <executions>
