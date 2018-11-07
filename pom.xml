@@ -51,7 +51,7 @@
                                     <type>zip</type>
                                 </artifact>
                             </artifactItems>
-                            <outputDirectory>${project.build.directory}/data</outputDirectory>
+                            <outputDirectory>${project.build.directory}/${project.build.finalName}.data</outputDirectory>
                         </configuration>
                     </execution>
                 </executions>
@@ -146,7 +146,7 @@
                             <goal>count-concepts</goal>
                         </goals>
                         <configuration>
-                            <dataStoreLocation>${project.build.directory}/data/</dataStoreLocation>
+                            <dataStoreLocation>${project.build.directory}/${project.build.finalName}.data/</dataStoreLocation>
                         </configuration>
                     </execution>
                     <execution>
