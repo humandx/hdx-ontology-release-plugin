@@ -14,25 +14,6 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-scm-plugin</artifactId>
-                <version>1.11.1</version>
-                <configuration>
-                    <connectionUrl>scm:git:https://${env.GIT_TOKEN}@github.com/humandx/hdx-ontology-isaac-changesets.git</connectionUrl>
-                    <scmVersion>${env.release_tag}</scmVersion>
-                    <scmVersionType>tag</scmVersionType>
-                </configuration>
-                <executions>
-                    <execution>
-                        <id>checkout-changesets</id>
-                        <phase>process-resources</phase>
-                        <goals>
-                            <goal>checkout</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
                 <version>3.0.2</version>
                 <executions>
@@ -53,6 +34,26 @@
                             </artifactItems>
                             <outputDirectory>${project.build.directory}/${project.build.finalName}.data</outputDirectory>
                         </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-scm-plugin</artifactId>
+                <version>1.11.1</version>
+                <configuration>
+                    <connectionUrl>scm:git:https://${env.GIT_TOKEN}@github.com/humandx/hdx-ontology-isaac-changesets.git</connectionUrl>
+                    <scmVersion>${env.release_tag}</scmVersion>
+                    <scmVersionType>tag</scmVersionType>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>checkout-changesets</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>checkout</goal>
+                        </goals>
                     </execution>
                 </executions>
             </plugin>
