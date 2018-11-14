@@ -42,7 +42,7 @@
                 <artifactId>maven-scm-plugin</artifactId>
                 <version>1.11.1</version>
                 <configuration>
-                    <connectionUrl>scm:git:https://${env.GIT_TOKEN}:x-oauth-basic@github.com/humandx/hdx-ontology-isaac-changesets.git</connectionUrl>
+                    <connectionUrl>scm:git:https://${env.GIT_TOKEN}@github.com/humandx/hdx-ontology-isaac-changesets.git</connectionUrl>
                     <scmVersion>${env.release_tag}</scmVersion>
                     <scmVersionType>tag</scmVersionType>
                 </configuration>
